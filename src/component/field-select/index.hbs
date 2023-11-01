@@ -2,8 +2,8 @@
 	<span class="field__label">{{label}}</span>
 
 	<div class="field__container">
-		<button onclick="fieldSelect.toggle(this)" type="button" class="field__select">
-			<span class="field__value field__value--placeholder">{{placeholder}}</span>
+		<button onclick="fieldSelect.toggle(this)" type="button" class="field__select validation--active">
+			<span class="field__value field__value--placeholder" name="{{name}}">{{placeholder}}</span>
 			<span class="field__icon"></span>
 		</button>
 		<ul class="field__option-list">
